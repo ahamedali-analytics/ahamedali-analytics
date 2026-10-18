@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <rect width="900" height="220" rx="16" fill="#0d1117"/>
+  <text x="30" y="40" fill="#f472b6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">LET'S CONNECT</text>
+  <g transform="translate(90,70)">
+    <circle cx="40" cy="40" r="34" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+    <text x="40" y="45" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="10">you</text>
+    <path d="M78 60 L150 60" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <polygon points="150,50 170,60 150,70" fill="#22d3ee"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#e2e8f0">
+    <a href="https://github.com/ahamedali-analytics"><rect x="290" y="70" width="170" height="60" rx="10" fill="#1e293b" stroke="#22d3ee"/><text x="375" y="106" text-anchor="middle">GitHub</text></a>
+    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-NAME"><rect x="480" y="70" width="170" height="60" rx="10" fill="#1e293b" stroke="#a78bfa"/><text x="565" y="106" text-anchor="middle">LinkedIn</text></a>
+    <a href="mailto:YOUR-EMAIL@gmail.com"><rect x="670" y="70" width="170" height="60" rx="10" fill="#1e293b" stroke="#f472b6"/><text x="755" y="106" text-anchor="middle">Email</text></a>
+  </g>
+</svg>
