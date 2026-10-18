@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b3a"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  </defs>
+  <rect width="900" height="300" rx="16" fill="url(#bg)"/>
+  <g transform="translate(60,40)">
+    <rect width="200" height="220" rx="8" fill="#111827" stroke="#334155"/>
+    <text x="100" y="115" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="13">your 2-sec clip</text>
+    <text x="100" y="135" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="13">goes here</text>
+    <g stroke="#22d3ee" stroke-width="3" fill="none">
+      <path d="M0 22V0H22"/><path d="M178 0H200V22"/><path d="M0 198V220H22"/><path d="M178 220H200V198"/>
+    </g>
+    <circle cx="18" cy="-12" r="5" fill="#ef4444">
+      <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="-8" fill="#ef4444" font-family="monospace" font-size="12">REC</text>
+  </g>
+  <text x="310" y="120" fill="#94a3b8" font-family="monospace" font-size="16">// hello, world. i'm</text>
+  <text x="310" y="170" fill="url(#g)" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Ahamed Ali</text>
+  <g font-family="monospace" font-size="22" fill="#e2e8f0">
+    <text x="310" y="215">Data Analyst
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.28;0.33;0.4;0.6;0.66;0.9;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="310" y="215">Dashboard Builder
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.38;0.62;0.66;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="310" y="215">SQL &amp; Python Storyteller
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.71;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <rect x="310" y="232" width="8" height="3" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
