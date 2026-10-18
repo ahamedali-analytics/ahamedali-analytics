@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1026"/><stop offset="1" stop-color="#1b1f4b"/></linearGradient>
+  </defs>
+  <rect width="900" height="200" rx="16" fill="url(#sky)"/>
+  <g fill="#fff"><circle cx="60" cy="30" r="1.5"/><circle cx="300" cy="20" r="1"/><circle cx="520" cy="38" r="1.5"/><circle cx="780" cy="24" r="1"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></g>
+  <text x="30" y="30" fill="#f472b6" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">DATA CITY</text>
+  <g transform="translate(40,185)">
+    <g fill="#22d3ee" opacity="0.9">
+      <rect x="0"   y="-30"  width="24" height="30"><animate attributeName="height" values="30;38;30" dur="4s" repeatCount="indefinite"/></rect>
+      <rect x="40"  y="-60"  width="24" height="60"/>
+      <rect x="80"  y="-45"  width="24" height="45"/>
+      <rect x="120" y="-95"  width="24" height="95"/>
+      <rect x="160" y="-70"  width="24" height="70"/>
+      <rect x="200" y="-110" width="24" height="110"/>
+      <rect x="240" y="-55"  width="24" height="55"/>
+      <rect x="280" y="-85"  width="24" height="85"/>
+      <rect x="320" y="-40"  width="24" height="40"/>
+      <rect x="360" y="-100" width="24" height="100"/>
+      <rect x="400" y="-65"  width="24" height="65"/>
+      <rect x="440" y="-35"  width="24" height="35"/>
+      <rect x="480" y="-80"  width="24" height="80"/>
+      <rect x="520" y="-50"  width="24" height="50"/>
+      <rect x="560" y="-90"  width="24" height="90"/>
+      <rect x="600" y="-45"  width="24" height="45"/>
+      <rect x="640" y="-70"  width="24" height="70"/>
+      <rect x="680" y="-30"  width="24" height="30"/>
+    </g>
+    <g fill="#fde68a">
+      <rect x="6" y="-70" width="4" height="4"><animate attributeName="opacity" values="1;0;1" dur="2.3s" repeatCount="indefinite"/></rect>
+      <rect x="126" y="-85" width="4" height="4"><animate attributeName="opacity" values="0;1;0" dur="3.1s" repeatCount="indefinite"/></rect>
+      <rect x="206" y="-100" width="4" height="4"><animate attributeName="opacity" values="1;0;1" dur="2.7s" repeatCount="indefinite"/></rect>
+      <rect x="366" y="-90" width="4" height="4"><animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+</svg>
