@@ -19,8 +19,7 @@
     <text x="28" y="-8" fill="#ef4444" font-family="monospace" font-size="12">REC</text>
   </g>
   <text x="310" y="120" fill="#94a3b8" font-family="monospace" font-size="16">// hello, world. i'm</text>
-  <text x="310" y="170" fill="url(#g)" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Ahamed Ali</text>
-  <g font-family="monospace" font-size="22" fill="#e2e8f0">
+  <text x="310" y="170" fill="url(#g)" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700">Shaik Ahamed Ali</text>  <g font-family="monospace" font-size="22" fill="#e2e8f0">
     <text x="310" y="215">Data Analyst
       <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.28;0.33;0.4;0.6;0.66;0.9;0.95;1" dur="9s" repeatCount="indefinite"/>
     </text>
