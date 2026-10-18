@@ -1,36 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b3a"/>
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#1a1440"/>
     </linearGradient>
-    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="30 30" dur="6s" repeatCount="indefinite"/>
+    </pattern>
   </defs>
-  <rect width="900" height="300" rx="16" fill="url(#bg)"/>
-  <g transform="translate(60,40)">
-    <rect width="200" height="220" rx="8" fill="#111827" stroke="#334155"/>
-    <text x="100" y="115" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="13">your 2-sec clip</text>
-    <text x="100" y="135" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="13">goes here</text>
-    <g stroke="#22d3ee" stroke-width="3" fill="none">
-      <path d="M0 22V0H22"/><path d="M178 0H200V22"/><path d="M0 198V220H22"/><path d="M178 220H200V198"/>
+
+  <rect width="900" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="900" height="320" rx="16" fill="url(#grid)"/>
+
+  <circle cx="120" cy="60" r="60" fill="#22d3ee" opacity="0.07">
+    <animate attributeName="cx" values="120;200;120" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="780" cy="260" r="70" fill="#f472b6" opacity="0.07">
+    <animate attributeName="cy" values="260;210;260" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="30" r="45" fill="#a78bfa" opacity="0.07">
+    <animate attributeName="cx" values="500;580;500" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <g transform="translate(50,40)">
+    <rect width="200" height="240" rx="10" fill="#111827" stroke="#334155"/>
+    <text x="100" y="118" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="13">your 2-sec clip</text>
+    <text x="100" y="138" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="13">goes here</text>
+    <g stroke="#22d3ee" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M0 24V0H24"/><path d="M176 0H200V24"/><path d="M0 216V240H24"/><path d="M176 240H200V216"/>
     </g>
-    <circle cx="18" cy="-12" r="5" fill="#ef4444">
+    <circle cx="20" cy="22" r="5" fill="#ef4444">
       <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" repeatCount="indefinite"/>
     </circle>
-    <text x="28" y="-8" fill="#ef4444" font-family="monospace" font-size="12">REC</text>
+    <text x="32" y="26" fill="#ef4444" font-family="monospace" font-size="12">REC</text>
   </g>
-  <text x="310" y="120" fill="#94a3b8" font-family="monospace" font-size="16">// hello, world. i'm</text>
-  <text x="310" y="170" fill="url(#g)" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700">Shaik Ahamed Ali</text>  <g font-family="monospace" font-size="22" fill="#e2e8f0">
-    <text x="310" y="215">Data Analyst
-      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.28;0.33;0.4;0.6;0.66;0.9;0.95;1" dur="9s" repeatCount="indefinite"/>
+
+  <text x="290" y="92" fill="#94a3b8" font-family="monospace" font-size="16">// hello, world. I'm</text>
+  <text x="290" y="148" fill="url(#g)" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700">Shaik Ahamed Ali</text>
+
+  <g font-family="monospace" font-size="22" fill="#e2e8f0">
+    <text x="290" y="190" opacity="0">&gt; Data Analyst
+      <animate attributeName="opacity" calcMode="discrete" values="1;0;0" keyTimes="0;0.25;1" dur="12s" repeatCount="indefinite"/>
     </text>
-    <text x="310" y="215">Dashboard Builder
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.38;0.62;0.66;1" dur="9s" repeatCount="indefinite"/>
+    <text x="290" y="190" opacity="0">&gt; AI &amp; Machine Learning Enthusiast
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.25;0.5" dur="12s" repeatCount="indefinite"/>
     </text>
-    <text x="310" y="215">SQL &amp; Python Storyteller
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.71;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <text x="290" y="190" opacity="0">&gt; Dashboard Builder
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.5;0.75" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="290" y="190" opacity="0">&gt; SQL &amp; Python Problem Solver
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.75;1" dur="12s" repeatCount="indefinite"/>
     </text>
   </g>
-  <rect x="310" y="232" width="8" height="3" fill="#22d3ee">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
+  <text x="290" y="222" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="15">Turning raw data into insights and decisions.</text>
+
+  <g font-family="monospace" font-size="13" text-anchor="middle" fill="#e2e8f0">
+    <rect x="290" y="242" width="78" height="30" rx="15" fill="#1e293b" stroke="#3776ab"/><text x="329" y="262">Python</text>
+    <rect x="378" y="242" width="58" height="30" rx="15" fill="#1e293b" stroke="#00758f"/><text x="407" y="262">SQL</text>
+    <rect x="446" y="242" width="88" height="30" rx="15" fill="#1e293b" stroke="#f2c811"/><text x="490" y="262">Power BI</text>
+    <rect x="544" y="242" width="48" height="30" rx="15" fill="#1e293b" stroke="#34d399"/><text x="568" y="262">AI</text>
+    <rect x="602" y="242" width="48" height="30" rx="15" fill="#1e293b" stroke="#fbbf24"/><text x="626" y="262">ML</text>
+  </g>
+
+  <text x="760" y="70" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="11">LIVE DATA</text>
+  <g transform="translate(715,160) scale(1,-1)">
+    <rect x="0"   y="0" width="14" height="10" rx="2" fill="#22d3ee"><animate attributeName="height" values="20;70;40;20" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="20"  y="0" width="14" height="10" rx="2" fill="#a78bfa"><animate attributeName="height" values="50;25;80;50" dur="3.4s" repeatCount="indefinite"/></rect>
+    <rect x="40"  y="0" width="14" height="10" rx="2" fill="#f472b6"><animate attributeName="height" values="30;60;20;30" dur="2.8s" repeatCount="indefinite"/></rect>
+    <rect x="60"  y="0" width="14" height="10" rx="2" fill="#34d399"><animate attributeName="height" values="70;35;55;70" dur="3.2s" repeatCount="indefinite"/></rect>
+    <rect x="80"  y="0" width="14" height="10" rx="2" fill="#fbbf24"><animate attributeName="height" values="25;75;45;25" dur="3.6s" repeatCount="indefinite"/></rect>
+  </g>
+  <line x1="715" y1="164" x2="815" y2="164" stroke="#334155"/>
 </svg>
