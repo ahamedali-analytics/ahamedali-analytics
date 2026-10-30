@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shaik Ahamed Ali</h1>
-<h3 align="center">2. Aspiring AI Engineer | Data Analytics | LLMs | NLP | Predictive Modeling | Python | Advanced Analytics</h3>
+<h3 align="center">Aspiring AI Engineer | Data Analytics | LLMs | NLP | Predictive Modeling | Python | Advanced Analytics</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ahamedali-analytics&label=Profile%20views&color=0e75b6&style=flat" alt="ahamedali-analytics" /> </p>
 
